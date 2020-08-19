@@ -1,0 +1,7 @@
+1.	Work example by hand
+2.	Write down what you did
+3.	Find Patterns
+4.	Check by hand
+5.	Translate to Code
+6. 	Run Test Cases
+7.	Debug failed Test Cases
