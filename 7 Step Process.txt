@@ -4,4 +4,4 @@
 4.	Check by hand
 5.	Translate to Code
 6. 	Run Test Cases
-7.	Debug failed Test Cases
+7.	Debug failed Test Cases.
