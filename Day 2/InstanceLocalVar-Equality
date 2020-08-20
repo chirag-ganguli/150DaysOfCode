@@ -1,0 +1,41 @@
+Instance variables are declared inside a class but not within a method
+
+class Horse
+{
+    private double height = 15.2;
+    private String breed;
+}
+
+Local variables are declared within a method
+
+class AddThing
+{
+    int a;
+    int b = 12;
+
+    public int add()
+    {
+        int total = a + b;
+        return total;
+    }
+}
+
+Local variables must be initilized before use
+
+class Foo
+{
+    public void go()
+    {
+        int x;
+        int z = x + 3;
+    }
+}
+
+<!--
+    Foo a = new Foo();
+    Foo b = new Foo();
+    Foo c = a;
+    if(a == b) { // false }
+    if(a == c) { // true }
+    if(b == c) { // false }
+-->
