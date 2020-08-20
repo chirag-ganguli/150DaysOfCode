@@ -1,15 +1,15 @@
-class Dogs {
+class Dogss {
     String name;
     public static void main(String[] args)
     {
-        Dogs dog1 = new Dogs();
+        Dogss dog1 = new Dogss();
         dog1.bark();
         dog1.name = "Bart";
 
-        Dogs[] myDogs = new Dogs[3];  // Dog Array
+        Dogss[] myDogs = new Dogss[3];  // Dog Array
         // Putting some dogs in the array
-        myDogs[0] = new Dogs();
-        myDogs[1] = new Dogs();
+        myDogs[0] = new Dogss();
+        myDogs[1] = new Dogss();
         myDogs[2] = dog1;
 
         myDogs[0].name = "Fred";
