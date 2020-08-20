@@ -1,0 +1,21 @@
+// Declare Dog Array Variable
+Dog[] pets;
+
+// Create new Dog array with length 7 and assign it to previously declared Dog[] variable pets
+pets = new Dog[7];
+
+// Create new Dog objects and assign them to the array elements
+pets[0] = new Dog();
+pets[1] = new Dog();
+
+// Control Dog with reference Variable
+Dog fido = new Dog();
+fido.name = "Fido";
+fido.bark();
+fido.play();
+
+// If Dog is in Dog array
+Dog[] myDogs = new Dog[3];
+myDogs[0] = new Dog();
+myDogs[0].name = "fido";
+myDogs[0].bark();

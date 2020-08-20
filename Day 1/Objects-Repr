@@ -1,0 +1,11 @@
+Objects
+----------------------------------------------------------------------
+
+Book b = new Book ()    // Refers to the book object 1
+Book c = new Book ()    // Refers to the book object 2
+
+Book d = c    // Both c and d refer to the same book object 2
+
+c = b    // Both b and c refer to the same object 1
+
+c = null    // Object 2 has an active reference from b but object 1 is toast
