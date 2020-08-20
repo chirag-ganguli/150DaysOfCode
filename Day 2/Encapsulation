@@ -1,0 +1,15 @@
+Hiding the data from future value change and issues
+
+Suppose we have, theCat.height = 27;
+
+Now if suppose the value is changed to theCat.height = 0 which we don't want
+
+public void setheight (int ht)
+{
+    if (ht > 9)
+    {
+        height = ht;        // We put in checks to guarantee a minimum cat height
+    }
+}
+
+Hiding the data ?   <--  private and public access modifier
