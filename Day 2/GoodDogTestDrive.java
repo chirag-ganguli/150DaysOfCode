@@ -61,3 +61,9 @@ class GoodDogTestDrive
         int x = pets[0].getSize(); // 30
         pets[1].setSize(8);
 */
+
+/*
+    Instance variables always get a default value.
+    If we don't explicitly assign a value to an instance variable, or we don't call a setter method, the instance variable has a value.
+    Int: 0      Float: 0.0      Bool: false     References: null
+*/
