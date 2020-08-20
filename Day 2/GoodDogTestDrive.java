@@ -43,3 +43,21 @@ class GoodDogTestDrive
         two.bark(); 
     }
 }
+
+
+
+// How objects in an array behave
+/*
+    1. Declare and create Dog Array to hold 7 Dog references 
+        Dog[] pets;
+        pets = new Dog[7];
+
+    2. Create 2 new Dog Objects, and assign them to first 2 array elements
+        pets[0] = new Dog();
+        pets[1] = new Dog();
+
+    3. Call Methods on the two Dog objects
+        pets[0].setSize(30);
+        int x = pets[0].getSize(); // 30
+        pets[1].setSize(8);
+*/
