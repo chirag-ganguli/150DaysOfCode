@@ -1,0 +1,12 @@
+Developing a Class
+--------------------------------------------------------------------------
+
+Figure out what the class is supposed to do
+List instance variables & methods
+Write prepcode (pseudocode) for the methods
+Write test code for the methods
+Implement the class
+Test the methods
+Debug and Reimplement as needed
+
+The concept of writing the test code first is one of the prctices of Extreme Programming (XP)
