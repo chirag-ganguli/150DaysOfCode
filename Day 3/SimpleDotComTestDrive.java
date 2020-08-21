@@ -76,7 +76,7 @@ class SimpleDotCom
             int guess = Integer.parseInt(stringGuess);
             String result = "miss";
 
-            for(int cell : locationCells)
+            for(int cell : locationCells)   // Enhanced For loop | for int cells in locationCells
             {
                 if(guess == cell)
                 {
